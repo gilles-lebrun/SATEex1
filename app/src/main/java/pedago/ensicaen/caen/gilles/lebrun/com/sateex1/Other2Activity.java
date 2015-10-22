@@ -45,7 +45,7 @@ public class Other2Activity extends AppCompatActivity {
 
     public void returnButton(View view) {
         Intent intentRes = new Intent();
-        intentRes.putExtra("Resultat", "C'est OK!");
+        intentRes.putExtra("Resultat", "C'est +++++ OK!");
         setResult(MesConstantes.RESULT_OK, intentRes);
         finish();
     }
